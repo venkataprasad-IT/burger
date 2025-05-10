@@ -1,0 +1,277 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Burger Hut</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">🍔 Burger Hut</div>
+
+    <!-- Toggle Icon -->
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+
+    <!-- Navigation Links -->
+    <nav class="nav-links" id="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">Location</a>
+      <a href="#">Testimonials</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <a href="#" class="order-btn">Order Now</a>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Where Every Bite is a Delight 🍔</h1>
+      <p>Juicy. Grilled. Legendary. Taste the difference today!</p>
+      <div class="cta-buttons">
+        <a href="#menu" class="btn view-menu">View Menu</a>
+        <a href="#order" class="btn order-now">Order Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu" id="menu">
+    <h2>Our Signature Burgers 🍟</h2>
+
+    <div class="menu-tabs">
+      <div class="tab" id="beef-burgers">
+        
+        <div class="menu-items">
+          <div class="menu-item">
+            <img src="https://github.com/venkataprasad-IT/Chat_burger/blob/main/s3.jpg?raw=true" alt="Beef Burger" />
+            <h4>Classic Beef Burger</h4>
+            <p>A juicy beef patty with fresh lettuce, tomatoes, and our special sauce.</p>
+            <span class="price">$8.99</span>
+            <a href="#" class="btn add-to-cart">Add to Cart</a>
+          </div>
+          <!-- Add more items here -->
+        </div>
+      </div>
+
+      <div class="tab" id="chicken-burgers">
+       
+        <div class="menu-items">
+          <div class="menu-item">
+            <img src="https://github.com/venkataprasad-IT/Chat_burger/blob/main/s1.jpg?raw=true" alt="Chicken Burger" />
+            <h4>Grilled Chicken Burger</h4>
+            <p>Grilled chicken breast with lettuce, pickles, and mayo on a soft bun.</p>
+            <span class="price">$7.99</span>
+            <a href="#" class="btn add-to-cart">Add to Cart</a>
+          </div>
+          <!-- Add more items here -->
+        </div>
+      </div>
+
+      <div class="tab" id="veggie-delights">
+        
+        <div class="menu-items">
+          <div class="menu-item">
+            <img src="https://github.com/venkataprasad-IT/Chat_burger/blob/main/s2.jpg?raw=true" alt="Veggie Burger" />
+            <h4>Veggie Supreme</h4>
+            <p>A delightful veggie patty with fresh veggies, cheese, and a tangy sauce.</p>
+            <span class="price">$6.99</span>
+            <a href="#" class="btn add-to-cart">Add to Cart</a>
+          </div>
+          <!-- Add more items here -->
+        </div>
+      </div>
+
+      <div class="tab" id="sides-beverages">
+        
+        <div class="menu-items">
+          <div class="menu-item">
+            <img src="https://github.com/venkataprasad-IT/Chat_burger/blob/main/s3.jpg?raw=true" alt="Fries" />
+            <h4>Crispy Fries</h4>
+            <p>Golden, crispy fries served with a side of ketchup.</p>
+            <span class="price">$2.99</span>
+            <a href="#" class="btn add-to-cart">Add to Cart</a>
+          </div>
+          <!-- Add more items here -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+	  <section class="location" id="location">
+    <h2>Find Us Here 📍</h2>
+
+    <!-- Embedded Google Map -->
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799122633!2d-74.25986699999999!3d40.6976701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ3JzMyLjYiTiA3NMKwMTQxMC4xMjMuNTZfKQ!5e0!3m2!1sen!2sin!4v1619469426188!5m2!1sen!2sin"
+        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <!-- Location Details -->
+    <div class="location-details">
+      <h3>Our Address</h3>
+      <p>123 Burger Street, Foodie City, FC 456789</p>
+
+      <h3>Opening Hours</h3>
+      <ul>
+        <li>Monday - Friday: 11:00 AM - 10:00 PM</li>
+        <li>Saturday: 12:00 PM - 11:00 PM</li>
+        <li>Sunday: Closed</li>
+      </ul>
+
+      <h3>Phone Number</h3>
+      <p>(+91) 7207124047</p>
+
+      <a href="https://www.google.com/maps/dir/?api=1&destination=123+Burger+Street,+Foodie+City,+FC+456789" target="_blank" class="btn get-directions">
+        Get Directions
+      </a>
+    </div>
+
+    
+  </section>
+
+   <section class="testimonial-section">
+  <h2 class="testimonial-title">What Our Customers Say ❤️</h2>
+  <div class="testimonial-cards">
+    <div class="testimonial-card">
+      <div class="testimonial-rating">
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">☆</span>
+      </div>
+      <p class="testimonial-quote">"This product has changed my life for the better! I couldn’t be happier with the results."</p>
+      <div class="testimonial-info">
+        <img src="https://via.placeholder.com/80" alt="Customer 1" class="testimonial-img">
+        <p class="testimonial-name">John Doe</p>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-rating">
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+      </div>
+      <p class="testimonial-quote">"Amazing experience! The customer service is top-notch, and the quality exceeded my expectations."</p>
+      <div class="testimonial-info">
+        <img src="https://via.placeholder.com/80" alt="Customer 2" class="testimonial-img">
+        <p class="testimonial-name">Jane Smith</p>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-rating">
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+      </div>
+      <p class="testimonial-quote">"Good service, but there’s room for improvement in terms of delivery times. Overall, satisfied!"</p>
+      <div class="testimonial-info">
+        <img src="https://via.placeholder.com/80" alt="Customer 3" class="testimonial-img">
+        <p class="testimonial-name">Mark Wilson</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer-section">
+  <div class="footer-container">
+    <!-- Column 1: Branding -->
+    <div class="footer-column">
+      <h2 class="footer-logo"> BURGER HUT</h2>
+      <p>"Flavor in Every Bite!"</p>
+      <p>Order Hotline: +91-9876543210</p>
+      <p>Email: <a href="mailto:hello@burgerhut.com">hello@burgerhut.com</a></p>
+    </div>
+
+    <!-- Column 2: Quick Links -->
+    <div class="footer-column">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Location</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3: Explore -->
+    <div class="footer-column">
+      <h3>Explore</h3>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Franchising</a></li>
+        <li><a href="#">Sustainability</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 4: Order Online -->
+    <div class="footer-column">
+      <h3>Order Online</h3>
+      <ul>
+        <li><a href="#">Zomato</a></li>
+        <li><a href="#">Swiggy</a></li>
+        <li><a href="#">Uber Eats</a></li>
+        <li><a href="#">Direct Pickup</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 5: Hours & Social -->
+    <div class="footer-column">
+      <h3>Opening Hours</h3>
+      <p>Mon - Fri: 11 AM – 11 PM</p>
+      <p>Sat - Sun: 10 AM – 12 AM</p>
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+
+    <!-- Column 6: Newsletter -->
+    <div class="footer-column newsletter">
+      <h3>Newsletter</h3>
+      <p>“Get juicy deals straight to your inbox”</p>
+      <form>
+        <input type="email" placeholder="Email Address" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom">
+    <p>© 2025 Burger Hut. All Rights Reserved.</p>
+    <div class="footer-links">
+      <a href="#">Terms</a> | <a href="#">Privacy</a>
+    </div>
+  </div>
+</footer>
+
+
+
+  <script>
+    const toggle = document.getElementById("menu-toggle");
+    const nav = document.getElementById("nav-links");
+
+    toggle.addEventListener("click", () => {
+      nav.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>
+
